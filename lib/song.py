@@ -5,7 +5,7 @@ class Song:
     artists = []
 
     genre_count={}
-    artists_count ={}
+    artist_count ={}
 
     
     def __init__(self,name,artist,genre):
@@ -47,3 +47,32 @@ class Song:
             cls.artist_count[artist] = 1        
 
 
+# ninety_nine_problems = Song("99 Problems", "Jay-Z", "Rap")
+# print(ninety_nine_problems.name)
+# print(ninety_nine_problems.artist)
+# print(ninety_nine_problems.genre)
+# print(Song.genre_count)
+# print(Song.artist_count)
+
+
+# ninety_nine_problems = Song("Thriller", "Michael Jackson", "Soul")
+# print(ninety_nine_problems.name)
+# print(ninety_nine_problems.artist)
+# print(ninety_nine_problems.genre)
+# print(Song.genre_count)
+# print(Song.artist_count)
+
+stuck_on_you = Song("Stuck On You", "Lionel Richie", "Soul")
+print(stuck_on_you.name)
+print(stuck_on_you.artist)
+print(stuck_on_you.genre)
+print(Song.genre_count)
+print(Song.artist_count)
+
+
+nakei_nairobi = Song("Nakei Nairobi", "Mbilia Bel", "Rhumba")
+print(nakei_nairobi.name)
+print(nakei_nairobi.artist)
+print(nakei_nairobi.genre)
+print(Song.genre_count)
+print(Song.artist_count)
